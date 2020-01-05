@@ -16,4 +16,4 @@ streamlit run stream.py.
 Link to my thesis: ...
 
 
-IF you have any questions on how to run this locally, what techniques I have used or generally on my thesis, please free to contact me.
+If you have any questions on how to run this locally, what techniques I have used or generally on my thesis, please free to contact me.
