@@ -5,7 +5,7 @@ This repository contains the explainable predictive maintenance prototype writte
 To run this locally, you need to download the files to your machine and make sure your the dependencies in the file requirements.txt are present in your environment. After, cd to the location where the files are stored run:
 
 ```
-streamlit run stream.py.
+streamlit run stream.py
 ```
 
 ## A showcase of the prototype:
