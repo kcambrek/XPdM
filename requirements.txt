@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+shap
+matplotlib
+altair
+Pillow
+sklearn
+joblib
+typing
