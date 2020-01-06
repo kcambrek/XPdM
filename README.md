@@ -15,11 +15,10 @@ streamlit run stream.py
 ```
 
 ## A showcase of the prototype:
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/jIE71_DeAFk/0.jpg)](http://www.youtube.com/watch?v=jIE71_DeAFk "Explainable predictive maintenance")
 
 
-
-
-Link to my thesis: ...
+Link to thesis: ...
 
 
 If you have any questions on how to run this locally, what techniques I have used or generally on my thesis, please free to contact me.
