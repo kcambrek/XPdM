@@ -2,7 +2,13 @@
 
 This repository contains the explainable predictive maintenance prototype written in Python which is part of my master thesis. 
 
-To run this locally, you need to download the files to your machine and make sure your the dependencies in the file requirements.txt are present in your environment. After, cd to the location where the files are stored run:
+To run this locally, you need to download the files to your machine and make sure your the dependencies in the file requirements.txt are present in your environment. I recommend to download [Anaconda](https://www.anaconda.com/distribution/), make a seperate environment, cd to the location of XPdM and install the dependencies from the requirements file:
+
+```
+pip install -r requirements.txt
+```
+
+After, run:
 
 ```
 streamlit run stream.py
