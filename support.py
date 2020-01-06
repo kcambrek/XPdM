@@ -32,6 +32,10 @@ def load_gb_model():
     
     return  lower_model, model, upper_model
    
+@st.cache
+def find_max_sequence(history):
+    max_sequence = max([len(history[engine]) for engine in history.keys()])
+    return max_sequence
 
 @st.cache
 def load_image(file_name):
