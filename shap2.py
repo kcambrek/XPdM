@@ -22,8 +22,9 @@ except ImportError:
     warnings.warn("matplotlib could not be loaded!")
     pass
 
-from shap.plots import colors, labels
-from shap.common import convert_to_link, hclust_ordering, LogitLink
+#from shap.plots import colors, labels
+#from shap.common import convert_to_link, hclust_ordering, LogitLink
+import shap
 
 
 def __change_shap_base_value(base_value, new_base_value, shap_values) -> np.ndarray:

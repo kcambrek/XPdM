@@ -1,10 +1,10 @@
 streamlit
 pandas
 numpy
-shap
 matplotlib
 altair
 Pillow
 sklearn
 joblib
 typing
+importlib_metadata 

@@ -23,7 +23,7 @@ def load_data():
     return df
 
     
-@st.cache 
+#@st.cache 
 def load_gb_model():
     #loads and returns the three saved models to predict RUL, including upper and lower prediction confidence bounds
     lower_model = joblib.load(path + "/jupyter\gb_lower_model.joblib")

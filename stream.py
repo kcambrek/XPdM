@@ -60,4 +60,3 @@ if interface == "monitor":
 if interface == "what-if":
     title = st.title("What-if mode")
     explore.run(data, upper_model, model, lower_model, explainer)
-        

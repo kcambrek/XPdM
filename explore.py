@@ -45,9 +45,9 @@ def run(data, upper_model, model, lower_model, explainer):
     for sensor in sensors.keys():
         #Treat cycle differently to prevent negative number of cycles.
         if sensor == "cycle":
-            sensors[sensor]["start"] = st.slider(sensor, 0.0, sensors[sensor]["max"] + sensors[sensor]["std"]*2, sensors[sensor]["start"])
+            sensors[sensor]["start"] = st.slider(sensor, 0.0, float(sensors[sensor]["max"] + sensors[sensor]["std"]*2), float(sensors[sensor]["start"]))
         else:  
-            sensors[sensor]["start"] = st.slider(sensor, sensors[sensor]["min"] - sensors[sensor]["std"]*2, sensors[sensor]["max"] + sensors[sensor]["std"]*2, sensors[sensor]["start"])
+            sensors[sensor]["start"] = st.slider(sensor, float(sensors[sensor]["min"] - sensors[sensor]["std"]*2), float(sensors[sensor]["max"] + sensors[sensor]["std"]*2), float(sensors[sensor]["start"]))
     
     #create empty dataframe with the column names from the original input data
     df_ = pd.DataFrame(index=[0], columns=df.columns)
